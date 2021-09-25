@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5e5b5b;
+}
+.heroImage{
+    background-image: url(../img/perifericos.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.tituloSeccion{
+    display: flex;
+    background-color: #272626;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*card*/
+.producto{
+    margin: 2px;
+}
+.boton{
+    background-color: #272626;
+    border: 1px solid #1A181B;
+}
+
+.boton:hover{
+    background-color: #403c42;
+    border: 1px solid #272626;
+}
+
+.whiteColor{
+    color: #ffffff;
+}
+.textoExplicativo{
+    background-color: #ffffff;
+    color: #272626;
+    padding: 10px;
+    justify-content: center;
+    line-height: 2;
+}
+.card-img-top{
+    height: 200px;
+}
+
+@media only screen and (min-width: 768px){
+    .textoExplicacion{
+        height: 120px;
+    }
+}    
+    
+@media only screen and (max-width: 576px){
+    .textoExplicacion{
+        height: 100px;
+    }
+}
+
+.carousel-control-next-icon{
+    margin-right: 30px;
+}
+
+.carousel-control-prev-icon{
+    margin-left: 30px;
+}
+/*footer*/
+
+.footer{
+    width: 100%;
+    background-color: #1A181B;
+    padding: 20px; 
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.footer .textoFooter p{
+    color: #fff;
+    font-size: 17px
+}
+
+@media only screen and (max-width: 768px){
+    .footer .textoFooter p{
+        text-align: center;
+    }
+}
+
+.footer .textoFooter a{
+    color: yellow;
+    font-style: italic;
+    transition: .3s ease-in-out;
+}
+
+.footer .textoFooter a:hover{
+    color: #aaaa10;
+    text-decoration: none;
+}
+
+.footerContent{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialMediaIcon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    transition: .3s ease-in-out;
+}
+
+.socialMediaIcon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.socialMediaIcon:hover{
+    background: #777272ff;
+    color: yellow;
+}
+
